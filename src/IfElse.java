@@ -34,26 +34,26 @@ public class IfElse {
 
         //if, else if, else
         //cum ne saluta robotelul in functie de ora?
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("Introdu ora");
-//        int ora = sc.nextInt();
-//        if (ora < 0) {
-//            System.out.println("ora negativa");
-//        } else if (ora <= 11) {
-//            System.out.println("buna dimineata");
-//        } else if (ora <= 18) {
-//            System.out.println("buna ziua");
-//        } else if (ora <= 21) {
-//            System.out.println(" buna seara");
-//        } else if (ora <= 24) {
-//            System.out.println("noapte buna");
-//        } else {
-//            System.out.println("ora invalida");
-//        }
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Introdu ora");
+        int ora = sc.nextInt();
+        if (ora < 0) {
+            System.out.println("ora negativa");
+        } else if (ora <= 11) {
+            System.out.println("buna dimineata");
+        } else if (ora <= 18) {
+            System.out.println("buna ziua");
+        } else if (ora <= 21) {
+            System.out.println(" buna seara");
+        } else if (ora <= 24) {
+            System.out.println("noapte buna");
+        } else {
+            System.out.println("ora invalida");
+        }
         // flow control - switch = se foloseste cand stim valorile posibile
 
         System.out.println("Alege optiunea");
-        Scanner sc = new Scanner(System.in);
+//        Scanner sc = new Scanner(System.in);
         int optiune = sc.nextInt();
         switch (optiune) {
             case 0:
